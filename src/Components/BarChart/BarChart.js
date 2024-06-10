@@ -5,18 +5,10 @@ import "./BarChart.css"
 export default function Barchart({data}) {
 
     return (
-      <div>
+      <div className="start">
         <h3 className="barhead">Top Expenses</h3>
 
-        <div style={{
-          background: "#FFFFFF",
-          marginBottom: "10px",
-          width: " 600px",
-          height: "250px",
-          marginRight: "40px",
-          borderRadius: "10px",
-        }}
-><ResponsiveContainer >
+        <div  className='headbar'><ResponsiveContainer >
       <BarChart
       layout='vertical'
         width={500}

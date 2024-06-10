@@ -45,6 +45,7 @@ h4{
     border-radius: 20px;
     border: #9DFF5B;
     padding: 10px;
+    cursor: pointer;
 
 }
 .button2{
@@ -53,10 +54,32 @@ h4{
   border-radius: 20px;
   border: #FF4747;
   padding: 10px;
+  cursor: pointer;
 
 }
 .Bottom{
     display: flex;
     justify-content: space-between;
     padding-bottom:10px;
+}
+@media(max-width:767px) {
+   
+    .first{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+    .wallet{
+        width: 240px;
+       
+        margin-bottom: 10px;
+    }
+    .Bottom{
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+    }
+
+    
 }

@@ -58,3 +58,14 @@ width:75%}
     gap: 5px;
     justify-content: flex-end;
 }
+.recent{
+    width:70%;
+}
+@media(max-width:767px){
+    .mainpart{
+        width:400px
+    }
+    .recent{
+        width:100%;
+    }
+}

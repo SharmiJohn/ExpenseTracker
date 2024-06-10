@@ -9,3 +9,20 @@
     
 
 }
+.headbar{
+    background: #FFFFFF;
+    margin-bottom: 10px;
+    width:  600px;
+    height: 250px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+@media(max-width:767px) {
+    .headbar{
+        width:300px
+       }
+       .start{
+        margin-left: 30px;
+       }
+}

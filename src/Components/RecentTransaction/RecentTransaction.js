@@ -61,7 +61,7 @@ function RecentTransaction({ formData,setformData ,balance,setbalance}) {
   },[totalpage,currentpage])
   
   return (
-    <div style={{ width: "70%" }}>
+    <div className="recent">
       <h4 className="Recenthead">Recent Transaction</h4>
       {recentdata.length !== 0 ? (
         <div className="mainpart">
@@ -131,6 +131,7 @@ function RecentTransaction({ formData,setformData ,balance,setbalance}) {
                       padding: "10px",
                       background: "#FF3E3E",
                       color: "white",
+                      cursor:"pointer"
                     }}
                     onClick={(()=>handleDelete(data.id))}
                   />
@@ -141,6 +142,7 @@ function RecentTransaction({ formData,setformData ,balance,setbalance}) {
                       padding: "10px",
                       background: "#F4BB4A",
                       color: "white",
+                       cursor:"pointer"
                     }}
                     onClick={()=>handleEdit(data.id)}
                   />

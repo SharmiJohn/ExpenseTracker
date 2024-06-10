@@ -33,7 +33,7 @@ function AddWallet({balance,setbalance,setwalletopen}) {
         <h3 className='heading'>Add Balance</h3>
         <div style={{padding:"20px"}}>
         <form onSubmit={(e)=>handlebalance(e)}>
-          <input className="inputs" value={walletAdd} placeholder='income Amount' onChange={(e)=>setWalletadd(e.target.value)}/>
+          <input className="inputs" value={walletAdd} placeholder='Income Amount' onChange={(e)=>setWalletadd(e.target.value)}/>
           <button className='button3' type="submit">Add balance</button>
           <button className='button4'onClick={(e)=>handlewallCancel(e)}>Cancel</button>
         </form>

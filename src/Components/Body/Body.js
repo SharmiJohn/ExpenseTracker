@@ -53,6 +53,7 @@ function Body() {
   return (
     <div
       style={{ background: "#3B3B3B", marginTop: "0px", borderRadius: "5px" }}
+      
     >
       <div className="part1">
         <h3>Expense Tracker</h3>

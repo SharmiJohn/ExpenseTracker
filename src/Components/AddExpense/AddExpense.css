@@ -16,3 +16,14 @@
     gap: 10px;
     padding: 10px;
 }
+@media(max-width:767px){
+.exp1{
+    width:200px;
+    padding: 10px;
+}
+.inner{
+  display: block;
+  padding: 0px 10px 0px 10px;;
+}
+}
+
